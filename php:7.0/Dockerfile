@@ -10,6 +10,12 @@ RUN apt-get update
 RUN apt-get install -y \
 	curl
 
+# install version control systems
+RUN apt-get install -y \
+      git git-core \
+      subversion \
+      mercurial
+
 # apt-get install php
 RUN apt-get install -y \
 	php7.0 \

@@ -2,6 +2,10 @@ PHP CI Docker image
 ===================
 
 Contains:
+* Version control systems
+ * GIT
+ * Subversion
+ * Mercurial
 * PHP with extensions:
  * cgi
  * cli
@@ -28,3 +32,11 @@ Contains:
  * jakub-onderka/php-parallel-lint
  * jakub-onderka/php-console-highlighter
  * phpstan/phpstan
+
+
+Use image
+=========
+
+```
+docker run -it mpromain/php-ci:7.0
+```
