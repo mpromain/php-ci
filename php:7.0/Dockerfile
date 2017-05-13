@@ -8,7 +8,8 @@ RUN echo "deb http://ppa.launchpad.net/ondrej/php/ubuntu xenial main" >> /etc/ap
 # install dependencies
 RUN apt-get update
 RUN apt-get install -y \
-	curl
+	curl \
+	wget
 
 # install version control systems
 RUN apt-get install -y \
